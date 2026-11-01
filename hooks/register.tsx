@@ -575,7 +575,7 @@ export const register: Register = on => {
             {cellsAt(tick, k, f).map((row, r) => (
               <Box key={String(r)} flexDirection="row">
                 {row.map((cell, c) => (
-                  <Text key={String(c)} color={cell.color} bold={cell.bold}>
+                  <Text key={String(c)} color={cell.color} bold={cell.bold} mono>
                     {cell.ch}
                   </Text>
                 ))}
