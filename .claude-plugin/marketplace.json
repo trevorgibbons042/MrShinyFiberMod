@@ -1,0 +1,11 @@
+{
+  "name": "mrshinyfibermod",
+  "owner": { "name": "trevorgibbons042" },
+  "plugins": [
+    {
+      "name": "spin-mascot",
+      "source": "./",
+      "description": "Particle-shower band above the Claude Code prompt"
+    }
+  ]
+}
